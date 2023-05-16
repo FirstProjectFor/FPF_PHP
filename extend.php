@@ -64,6 +64,10 @@ namespace FPF_PHP {
     $child2->sayHello("Zhang san", "LiSi");
 
     var_dump($child2);
+    
+    foreach($child2 as $key => $value){
+	    echo "$key $value \n";
+    }
 
 }
 ?>
